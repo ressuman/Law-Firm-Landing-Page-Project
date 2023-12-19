@@ -8,15 +8,14 @@ Replicating a Law Firm Website-I used this opportunity to practice my web design
 
 ### 1. Project Overview
 
-I reviewed the Figma design using the following link: [Click for link](https://www.figma.com/file/QUreEf9IO2uhYH5ZKyAh0y/Law-firm-site?type=design&node-id=0-1&mode=design&t=zLcGAO8wFUNjAfN9-0).
-My main task and objective is to replicate the design as closely as possible using HTML and CSS.
+* I reviewed the Figma design using the following link: [Click for link](https://www.figma.com/file/QUreEf9IO2uhYH5ZKyAh0y/Law-firm-site?type=design&node-id=0-1&mode=design&t=zLcGAO8wFUNjAfN9-0).
+* My main task and objective is to replicate the design as closely as possible using HTML and CSS and some few Javascript code.
 
 ### 2. Replication
 
-Carefully study the design, including layout, colors, typography, buttons, and spacing.
-Write well-structured HTML code to represent the various sections of the website.
-Apply CSS styling to achieve the visual elements of the design.
-Aim for pixel-perfect replication, matching colors, fonts, and proportions.
+* I carefully studied the design, including layout, colors, typography, buttons, and spacing.
+* I wrote a well-structured HTML code to represent the various sections of the website and applied CSS styling and Javascript functionalities to achieve the visual elements of the design.
+* I then aimed for pixel-perfect replication, matching colors, fonts, and proportions.
 
 ### 3. Requirements
 
