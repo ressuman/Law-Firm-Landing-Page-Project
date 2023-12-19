@@ -19,13 +19,12 @@
 
 ### 3. Requirements
 
-Create an HTML/CSS project dedicated to replicating the provided Figma design.
-Use semantic HTML tags to structure the content logically.
-Apply CSS styling to accurately reproduce the design's visual components.
-Ensure that the design is responsive and adapts well to different screen sizes.
+* I created an HTML/CSS/Javascript project dedicated to replicating the provided Figma design.
+* I used semantic HTML tags to structure the content logically and applied CSS styling to accurately reproduce the design's visual components.
+* I also ensured that the design is responsive and adapts well to different screen sizes.
 
 ### 4. Additional Tasks
 
-Include at least one hover effect (e.g., on buttons or links) to enhance interactivity.
-Optimize your project for loading speed by compressing images (if applicable).
-Validate your HTML code to ensure it follows best practices.
+* Included at least one hover effect (e.g., on buttons or links) to enhance interactivity.
+* Optimized the project for loading speed by compressing images (if applicable).
+* Validated my HTML code to ensure it follows best practices.
