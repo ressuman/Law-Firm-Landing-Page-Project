@@ -1,6 +1,6 @@
 # AZ-C5-PROJECT-HTML-CSS-JS
 
-## Replicating a Law F0irm Website Design
+## TASK- Replicating a Law Firm Website Design
 
 ### Objective
 
