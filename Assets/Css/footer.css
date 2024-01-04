@@ -1,0 +1,324 @@
+/* Our Main Footer Begins */
+footer .footer--section--container .footer--content--wrapper {
+  background-color: #0f3041;
+  color: #fff;
+  padding: 5rem 1.25rem 3rem;
+}
+
+.footer--section--container .footer--content--wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+/* Footer Quick Links Starts */
+.footer--content--wrapper .content--aboutInfo--box,
+.footer--content--wrapper .content--quickLinks--box,
+.footer--content--wrapper .content--services--box {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.aboutInfo--description p {
+  font-size: 0.775rem;
+}
+
+.socials--media--icons .social--custom--icon {
+  color: #c82424;
+  background-color: white;
+  border: none;
+}
+
+.content--quickLinks--box .quickLinks--title h3,
+.content--services--box .services--title h3,
+.content--contactInfo--box .contactInfo--title h3 {
+  font-size: 1.3rem;
+}
+
+.content--quickLinks--box .quickLinks--title h3::after,
+.content--services--box .services--title h3::after,
+.content--contactInfo--box .contactInfo--title h3::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #c82424;
+  width: 3.8375rem;
+  height: 0.15625rem;
+  margin-top: 0.3rem;
+  /* margin-bottom: 0.8rem; */
+}
+
+.content--quickLinks--box .quickLinks--anchorLists a,
+.content--services--box .services--anchorLists a {
+  font-size: 1rem;
+}
+
+.content--quickLinks--box .quickLinks--anchorLists a:hover,
+.content--services--box .services--anchorLists a:hover {
+  border-bottom: 3px solid #c82424;
+}
+
+.content--quickLinks--box .quickLinks--anchorLists ul li,
+.content--services--box .services--anchorLists ul li {
+  margin-bottom: 0.6rem;
+}
+
+.content--contactInfo--box .number--wrapper .number--logo--and--text {
+  margin-top: 1.5rem;
+}
+
+/* .content--contactInfo--box .location--wrapper .location--logo--and--text {
+  margin-bottom: 3rem;
+} */
+
+.number--wrapper .number--logo--and--text,
+.email--wrapper .email--logo--and--text,
+.location--wrapper .location--logo--and--text {
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.number--wrapper .number--logo--and--text a,
+.email--wrapper .email--logo--and--text a,
+.location--wrapper .location--logo--and--text a {
+  font-size: 1rem;
+  padding-left: 0.8rem;
+}
+
+.number--wrapper .number--logo--and--text a:hover,
+.email--wrapper .email--logo--and--text a:hover,
+.location--wrapper .location--logo--and--text a:hover {
+  border-bottom: 3px solid #c82424;
+}
+/* Footer Quick Links Ends */
+
+/* Copyright Starts */
+.footer--copyright--wrapper .copyright--content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid #f9f9f9;
+  background-color: #0f3041;
+  color: #fff;
+  padding: 1.5rem 0;
+}
+
+.footer--copyright--wrapper .copyright--content p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+/* Copyright Ends */
+/* Footer Overlay Back to Top Starts */
+.footer--overlay--wrapper {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99;
+}
+
+.overlay--back--to--top .move--up {
+  cursor: pointer;
+  color: #c82424;
+  width: 2rem;
+  height: 2rem;
+  border: 3px solid #c82424;
+  border-radius: 0.8rem;
+  background-color: transparent;
+}
+/* Footer Overlay Back to Top Ends */
+/* Our Main Footer Ends */
+
+/* For Tablet Screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+  footer .footer--section--container .footer--content--wrapper {
+    padding: 5rem 1.25rem 3rem;
+  }
+
+  .footer--section--container .footer--content--wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem;
+  }
+
+  .aboutInfo--description p {
+    font-size: 1rem;
+  }
+
+  .content--quickLinks--box .quickLinks--title h3,
+  .content--services--box .services--title h3,
+  .content--contactInfo--box .contactInfo--title h3 {
+    font-size: 1.5rem;
+  }
+
+  .content--quickLinks--box .quickLinks--title h3::after,
+  .content--services--box .services--title h3::after,
+  .content--contactInfo--box .contactInfo--title h3::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #c82424;
+    width: 4.5375rem;
+    height: 0.15625rem;
+    margin-top: 0.3rem;
+  }
+
+  .content--quickLinks--box .quickLinks--anchorLists a,
+  .content--services--box .services--anchorLists a {
+    font-size: 1.2rem;
+  }
+
+  .content--quickLinks--box .quickLinks--anchorLists ul li,
+  .content--services--box .services--anchorLists ul li {
+    margin-bottom: 0.7rem;
+  }
+
+  .number--wrapper .number--logo--and--text,
+  .email--wrapper .email--logo--and--text,
+  .location--wrapper .location--logo--and--text {
+    margin-bottom: 0.7rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .number--wrapper .number--logo--and--text a,
+  .email--wrapper .email--logo--and--text a,
+  .location--wrapper .location--logo--and--text a {
+    font-size: 1.2rem;
+    padding-left: 0.9rem;
+  }
+
+  .footer--copyright--wrapper .copyright--content {
+    padding: 2.5rem 0;
+  }
+
+  .footer--copyright--wrapper .copyright--content p {
+    font-size: 1.6rem;
+  }
+
+  .footer--overlay--wrapper {
+    position: fixed;
+    bottom: 5.5rem;
+    right: 5.5rem;
+    z-index: 99;
+  }
+
+  .overlay--back--to--top .move--up {
+    cursor: pointer;
+    color: #c82424;
+    width: 2.8rem;
+    height: 2.8rem;
+    border: 3px solid #c82424;
+    border-radius: 1rem;
+    background-color: transparent;
+  }
+}
+
+/* For Laptop Screens */
+@media (min-width: 1025px) {
+  footer .footer--section--container .footer--content--wrapper {
+    padding: 5rem 1.25rem 3rem;
+  }
+
+  .footer--section--container .footer--content--wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    align-items: start;
+    gap: 4rem;
+  }
+
+  .footer--content--wrapper .content--aboutInfo--box {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 6;
+  }
+
+  .footer--content--wrapper .content--quickLinks--box {
+    display: grid;
+    grid-column-start: 6;
+    grid-column-end: 9;
+  }
+
+  .footer--content--wrapper .content--services--box {
+    display: grid;
+    grid-column-start: 9;
+    grid-column-end: 12;
+  }
+
+  .aboutInfo--description p {
+    font-size: 1.2vw;
+  }
+
+  .content--quickLinks--box .quickLinks--title h3,
+  .content--services--box .services--title h3,
+  .content--contactInfo--box .contactInfo--title h3 {
+    font-size: 2vw;
+  }
+
+  .content--quickLinks--box .quickLinks--title h3::after,
+  .content--services--box .services--title h3::after,
+  .content--contactInfo--box .contactInfo--title h3::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #c82424;
+    width: 4.5375rem;
+    height: 0.15625rem;
+    margin-top: 0.3rem;
+  }
+
+  .content--quickLinks--box .quickLinks--anchorLists a,
+  .content--services--box .services--anchorLists a {
+    font-size: 1.5vw;
+  }
+
+  .content--quickLinks--box .quickLinks--anchorLists ul li,
+  .content--services--box .services--anchorLists ul li {
+    margin-bottom: 0.7rem;
+  }
+
+  .number--wrapper .number--logo--and--text,
+  .email--wrapper .email--logo--and--text,
+  .location--wrapper .location--logo--and--text {
+    margin-bottom: 0.7rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .number--wrapper .number--logo--and--text a,
+  .email--wrapper .email--logo--and--text a,
+  .location--wrapper .location--logo--and--text a {
+    font-size: 1.5vw;
+    padding-left: 0.9rem;
+  }
+
+  .footer--copyright--wrapper .copyright--content {
+    padding: 2.5rem 0;
+  }
+
+  .footer--copyright--wrapper .copyright--content p {
+    font-size: 1.6rem;
+  }
+
+  .footer--overlay--wrapper {
+    position: fixed;
+    bottom: 6.5rem;
+    right: 6.5rem;
+    z-index: 99;
+  }
+
+  .overlay--back--to--top .move--up {
+    cursor: pointer;
+    color: #c82424;
+    width: 3rem;
+    height: 3rem;
+    border: 3px solid #c82424;
+    border-radius: 1rem;
+    background-color: transparent;
+  }
+}

@@ -1,18 +1,13 @@
-@import "./general.css";
-@import "./header.css";
-@import "./hero.css";
-@import "./cards.css";
-@import "./aboutUs.css";
-@import "./testimonials.css";
-@import "./contactUs.css";
-@import "./ourPartners.css";
-@import "./footer.css";
-
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

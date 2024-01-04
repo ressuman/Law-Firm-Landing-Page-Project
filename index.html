@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Replicating a Law Firm Website provided by Figma Design"
+    />
+    <meta name="keywords" content="Html,Css,Javascript,Figma" />
+    <link
+      rel="shortcut icon"
+      href="./Assets/Images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Law Firm Website</title>
+    <link rel="stylesheet" href="./Assets/Css/styles.css" />
+    <script src="./Assets/JS/feathericon.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Section Starts -->
+    <header>
+      <!-- TopBar Start -->
+      <div class="header--contact--box">
+        <div class="header--contact--topbar">
+          <div class="topbar--contact--bar">
+            <div class="contact--mail">
+              <i data-feather="mail" class="contact--custom--icon"></i
+              ><a
+                href="mailto:cohort5@azubiafrica.org"
+                target="_blank"
+                class="mail--text"
+                >cohort5@azubiafrica.org</a
+              >
+            </div>
+            <div class="contact--number">
+              <i data-feather="phone" class="contact--custom--icon"></i
+              ><a href="tel:+233123456789" target="_blank" class="number--text"
+                >+233 1234 56 79</a
+              >
+            </div>
+          </div>
+
+          <div class="topbar--social--bar">
+            <div class="social--media--button">
+              <div>
+                <a
+                  aria-label="Facebook"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="facebook--button"
+                  role="button"
+                >
+                  <i
+                    data-feather="facebook"
+                    class="social--custom--icon"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+                <a
+                  aria-label="Twitter"
+                  href="https://twitter.com/"
+                  target="_blank"
+                  class="twitter--button"
+                  role="button"
+                >
+                  <i
+                    data-feather="twitter"
+                    class="social--custom--icon"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="sr-only">Twitter</span>
+                </a>
+                <a
+                  aria-label="Instagram"
+                  target="_blank"
+                  href=" https://www.instagram.com/ "
+                  class="instagram--button"
+                  role="button"
+                >
+                  <i
+                    data-feather="instagram"
+                    class="social--custom--icon"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </div>
+            </div>
+            <div class="appointment--button">
+              <a href="#contact" class="app--btn">Get a schedule</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- TopBar End -->
+
+      <!-- Navigation Start -->
+      <div class="header--nav--box">
+        <div class="header--nav--logo">
+          <a href="#main--header"
+            ><img src="./Assets/Images/logo.svg" alt="Main Website Logo"
+          /></a>
+        </div>
+
+        <nav class="header--nav--menubar">
+          <div class="nav--mobile--menu">
+            <i
+              data-feather="menu"
+              aria-hidden="true"
+              class="hamburger--menu"
+              id="openOverlay"
+              onclick="openOverlay()"
+            ></i>
+          </div>
+          <div class="nav--menu--items">
+            <ul>
+              <li><a href="#main--header">Home</a></li>
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#video">Video</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#partners">Partners</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="nav--overlay" id="nav--overlay">
+        <div class="overlay--content">
+          <span class="close--overlay" onclick="closeOverlay()"
+            ><i data-feather="x" class="close--icon"></i
+          ></span>
+          <div class="overlay--menu--items">
+            <ul>
+              <li><a href="#main--header">Home</a></li>
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#video">Video</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#partners">Partners</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation End -->
+    </header>
+    <!-- Navigation Section Ends -->
+
+    <!-- Hero Section Begins -->
+    <section class="hero--section--container" id="main--header">
+      <div class="hero--content--wrapper">
+        <div class="hero--welcome"><p>Right way ...</p></div>
+        <div class="hero--title">
+          <h1>
+            It's Our Pride <br />
+            To Fight For Your Dream
+          </h1>
+        </div>
+        <div class="hero--description">
+          <p>
+            But I must explain to you how all this mistaken idea <br />
+            of denouncing pleasure and praising pain was born and I will give
+            <br />
+            you a complete account of the system, and expound the actual <br />
+            teachings of the great explorer of the truth.
+          </p>
+        </div>
+      </div>
+      <div class="hero--buttons">
+        <div class="free--consulting">
+          <a href="#contact" class="consulting--btn">Free Consulting</a>
+        </div>
+        <div class="learn--more">
+          <a href="#services" class="learn--btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section Ends -->
+
+    <!-- Card Section Starts -->
+    <article class="card--content--container" id="about-us">
+      <section class="card--content--wrapper">
+        <div class="card--court--performance cards--layout">
+          <div><p>Court Performance</p></div>
+          <div><i data-feather="home" class="court--icon cards-icon"></i></div>
+          <div>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque.
+            </p>
+          </div>
+        </div>
+        <div class="card--document--review cards--layout">
+          <div><p>Document Review</p></div>
+          <div>
+            <i data-feather="file-text" class="document--icon cards-icon"></i>
+          </div>
+          <div>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque.
+            </p>
+          </div>
+        </div>
+        <div class="card--expert--attorney cards--layout">
+          <div><p>Expert Attorney</p></div>
+          <div>
+            <i data-feather="anchor" class="expert--icon cards-icon"></i>
+          </div>
+          <div>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque.
+            </p>
+          </div>
+        </div>
+        <div class="card--case--dismissed cards--layout">
+          <div><p>Case Dismissed</p></div>
+          <div><i data-feather="bell" class="case--icon cards-icon"></i></div>
+          <div>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque.
+            </p>
+          </div>
+        </div>
+        <!-- <div class="card--image cards--layout">
+
+        </div> -->
+      </section>
+
+      <section class="card--aboutUs--wrapper">
+        <div class="card--aboutUs--image cards--grid">
+          <img src="./Assets/Images/cardimg.png" alt="card-image" />
+        </div>
+        <div class="card--aboutUs--content cards--grid">
+          <div class="aboutUs--welcome"><h2>About Us</h2></div>
+          <div class="aboutUs--title">
+            <p>
+              We Are Top Lawyers With <span> 25 Years </span>
+              Of Experience
+            </p>
+          </div>
+          <div class="aboutUs--description">
+            <p>
+              On the other hand, we denounce with righteous indignation and
+              dislike men who are so beguiled and demoralized by the charms of
+              pleasure of the moment, so blinded by desire, that they cannot
+              foresee the pain and trouble that are bound to ensue.
+            </p>
+          </div>
+          <div class="aboutUs--list">
+            <ul>
+              <li>100% Success Rate</li>
+              <li>No Need Extra Cost for Consultation</li>
+              <li>Expert Legal Service</li>
+              <li>Highly Recommendation</li>
+              <li>Fast Support</li>
+              <li>High Court Performance</li>
+              <li>Free Counseling</li>
+              <li>Quick Complete Case</li>
+            </ul>
+          </div>
+          <div class="aboutUs--submit">
+            <a href="#contact" class="aboutUs--btn">Free Consulting</a>
+          </div>
+        </div>
+      </section>
+    </article>
+    <!-- Card Section Ends -->
+
+    <main>
+      <!-- Testimonial Starts -->
+      <div class="testimonial--box" id="video">
+        <section class="testimonial--content--wrapper">
+          <div class="testimonial--content">
+            <div class="testimonials--title accounts">
+              <p>
+                We Fight For Right, Meet Us To Solve Your Legal Problem In Right
+                Way
+              </p>
+            </div>
+            <div class="testimonials--description accounts">
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti quos
+                dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident, similique sunt in culpa qui officia deserunt
+                mollitia animi id est laborum et dolorum fuga.
+              </p>
+            </div>
+            <div class="testimonials--signature accounts">
+              <img
+                src="./Assets/Images/signature.png"
+                alt="testimonial signature"
+              />
+            </div>
+            <div class="testimonials--name accounts">
+              <p>Anthomas Darlos</p>
+            </div>
+            <div class="testimonials--position accounts">
+              <p>Senior Attorney &#38; Founder of Atorn</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonial--video--wrapper">
+          <div class="lady--image">
+            <img src="./Assets/Images/video-img.png" alt="lady image" />
+          </div>
+          <div class="circle--image">
+            <img src="./Assets/Images/Ellipse-2.svg" alt="circle image" />
+          </div>
+          <div class="triangle--image">
+            <img src="./Assets/Images/triangle.svg" alt="triangle image" />
+          </div>
+        </section>
+      </div>
+      <!-- Testimonials Ends -->
+
+      <!-- Contact Us Starts -->
+      <section class="contactUs--content--container" id="contact">
+        <div class="contactUs--content--wrapper">
+          <div class="contactUs--links">
+            <div class="contactUs--links--title">
+              <h3>Contact Us Today, Get In Touch With Expert</h3>
+            </div>
+            <div class="contactUs--links--description">
+              <p>
+                On the other hand, we denounce with righteous indignation and
+                dislike men who are so beguiled and demoralized by the charms of
+                pleasure of the moment, so blinded by desire that they cannot
+                foresee the pain and trouble.
+              </p>
+            </div>
+            <div class="contactUs--links--and--social">
+              <div class="contactUs--links--phone">
+                <div class="phone--text"><p>Phone Number</p></div>
+                <div class="phone--number">
+                  <a href="tel:+233123456789" target="_blank"
+                    >+233 1234 56 79</a
+                  >
+                </div>
+              </div>
+              <div class="contactUs--links--social">
+                <div class="social--text"><p>Our Social Links</p></div>
+                <div class="social--links">
+                  <a
+                    aria-label="Facebook"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="facebook--button"
+                    role="button"
+                  >
+                    <i
+                      data-feather="facebook"
+                      class="social--custom--icon"
+                      aria-hidden="true"
+                    ></i>
+                    <span class="sr-only">Facebook</span>
+                  </a>
+                  <a
+                    aria-label="Twitter"
+                    href="https://twitter.com/"
+                    target="_blank"
+                    class="twitter--button"
+                    role="button"
+                  >
+                    <i
+                      data-feather="twitter"
+                      class="social--custom--icon"
+                      aria-hidden="true"
+                    ></i>
+                    <span class="sr-only">Twitter</span>
+                  </a>
+                  <a
+                    aria-label="Instagram"
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    class="instagram--button"
+                    role="button"
+                  >
+                    <i
+                      data-feather="instagram"
+                      class="social--custom--icon"
+                      aria-hidden="true"
+                    ></i>
+                    <span class="sr-only">Instagram</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contactUs--form">
+            <div class="contactUs--form--title">
+              <h3>Get A Flexible Schedule</h3>
+            </div>
+            <form action="./myAction.js" method="get" target="_blank">
+              <div class="contactUs--form--name">
+                <div class="name--icon">
+                  <label for="name"
+                    ><i data-feather="user" aria-hidden="true"></i
+                  ></label>
+                </div>
+                <div class="name--input">
+                  <input
+                    type="text"
+                    name="full-name"
+                    id="name"
+                    placeholder="Full name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="contactUs--form--email">
+                <div class="email--icon">
+                  <label for="email"
+                    ><i data-feather="mail" aria-hidden="true"></i
+                  ></label>
+                </div>
+                <div class="email--input">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="contactUs--form--number">
+                <div class="number--icon">
+                  <label for="number"
+                    ><i data-feather="phone" aria-hidden="true"></i
+                  ></label>
+                </div>
+                <div class="number--input">
+                  <input
+                    type="tel"
+                    name="phone-number"
+                    id="number"
+                    placeholder="Phone No"
+                    pattern="[0-9]{10}"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="contactUs--form--date">
+                <div class="date--icon">
+                  <label for="date"
+                    ><img src="./Assets/Images/calendar.png" alt="calender"
+                  /></label>
+                </div>
+                <div class="date--input">
+                  <input type="date" name="date" id="date" required />
+                </div>
+              </div>
+              <div class="contactUs--form--message">
+                <div class="message--icon">
+                  <label for="message"
+                    ><img
+                      src="./Assets/Images/message-square.png"
+                      alt="message"
+                  /></label>
+                </div>
+                <div class="message--input">
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    required
+                  >
+                    Write your message...
+                  </textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <button class="contactUs--button" type="submit">
+            Get an Appointment
+          </button>
+        </div>
+      </section>
+      <!-- Contact Us Ends -->
+
+      <!-- Our Partners Starts -->
+      <section class="ourPartners--content--container" id="partners">
+        <div class="ourPartners--content--wrapper">
+          <div class="ourPartners--title"><h2>Our Partners</h2></div>
+          <div class="ourPartners--description">
+            <h3>Trusted By Many Front Line Teams Everywhere</h3>
+          </div>
+          <marquee behavior="scroll" direction="right"
+            ><div class="ourPartners--logos">
+              <div class="logos--one logos">
+                <a href="#" target="_blank"
+                  ><img src="./Assets/Images/partner1.png" alt="partner 1"
+                /></a>
+              </div>
+              <div class="logos--two logos">
+                <a href="#" target="_blank"
+                  ><img src="./Assets/Images/partner2.png" alt="partner 2"
+                /></a>
+              </div>
+              <div class="logos--three logos">
+                <a href="#" target="_blank">
+                  <img src="./Assets/Images/partner3.png" alt="partner 3"
+                /></a>
+              </div>
+              <div class="logos--four logos">
+                <a href="#" target="_blank">
+                  <img src="./Assets/Images/partner4.png" alt="partner 4"
+                /></a>
+              </div></div
+          ></marquee>
+        </div>
+      </section>
+      <!-- Our Partners Ends -->
+    </main>
+
+    <!-- Our Main Footer Begins -->
+    <footer id="main--footer">
+      <section class="footer--section--container">
+        <!-- Footer Quick Links Starts -->
+        <div class="footer--content--wrapper">
+          <div class="content--aboutInfo--box">
+            <div class="aboutInfo--logo">
+              <a href="#main--header"
+                ><img
+                  src="./Assets/Images/footer-logo.png"
+                  alt="Our Website Logo"
+              /></a>
+            </div>
+            <div class="aboutInfo--description">
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti quos
+                dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident, similique sunt in culpa qui officia deserunt
+                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
+                rerum.
+              </p>
+            </div>
+            <div class="aboutInfo--socials">
+              <div class="socials--media--icons">
+                <a
+                  aria-label="Facebook"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="facebook--button"
+                  role="button"
+                >
+                  <i
+                    data-feather="facebook"
+                    class="social--custom--icon"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+                <a
+                  aria-label="Twitter"
+                  href="https://twitter.com/"
+                  target="_blank"
+                  class="twitter--button"
+                  role="button"
+                >
+                  <i
+                    data-feather="twitter"
+                    class="social--custom--icon"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="sr-only">Twitter</span>
+                </a>
+                <a
+                  aria-label="Instagram"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="instagram--button"
+                  role="button"
+                >
+                  <i
+                    data-feather="instagram"
+                    class="social--custom--icon"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="content--quickLinks--box">
+            <div class="quickLinks--title"><h3>Quick Links</h3></div>
+            <div class="quickLinks--anchorLists">
+              <ul>
+                <li><a href="#main--header">Home </a></li>
+                <li><a href="#about-us">About Us </a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#">Case Study</a></li>
+                <li><a href="#">Our Blog</a></li>
+                <li><a href="#">Client Reviews</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="services" class="content--services--box">
+            <div class="services--title"><h3>Services</h3></div>
+            <div class="services--anchorLists">
+              <ul>
+                <li><a href="#">Civil Law</a></li>
+                <li><a href="#">Family Law</a></li>
+                <li><a href="#">Cyber Law</a></li>
+                <li><a href="#">Education Law</a></li>
+                <li><a href="#">Business Law</a></li>
+                <li><a href="#">Investment Law</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="content--contactInfo--box">
+            <div class="contactInfo--title"><h3>Contact Info</h3></div>
+            <div class="contactInfo--phoneNumber">
+              <div class="number--wrapper">
+                <div class="number--logo--and--text">
+                  <i data-feather="phone" class="contact--custom--icon"></i
+                  ><a
+                    href="tel:+233123456789"
+                    target="_blank"
+                    class="number--text"
+                    >+233 1234 56 79</a
+                  >
+                </div>
+                <!-- <div class="number--text"></div> -->
+              </div>
+            </div>
+            <div class="contactInfo--emailAddress">
+              <div class="email--wrapper">
+                <div class="email--logo--and--text">
+                  <i data-feather="mail" class="contact--custom--icon"></i
+                  ><a
+                    href="mailto:cohort5@azubiafrica.org"
+                    target="_blank"
+                    class="mail--text"
+                    >cohort5@azubiafrica.org</a
+                  >
+                </div>
+                <!-- <div class="email--text"></div> -->
+              </div>
+            </div>
+            <div class="contactInfo--location">
+              <div class="location--wrapper">
+                <div class="location--logo--and--text">
+                  <i data-feather="map-pin" class="contact--custom--icon"></i
+                  ><a
+                    href="geo:5.68235,-0.19209"
+                    target="_blank"
+                    class="mail--text"
+                    >North Legon - Accra, Ghana</a
+                  >
+                </div>
+                <!-- <div class="location--text"></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Quick Links Ends -->
+
+        <!-- Copyright Starts -->
+        <div class="footer--copyright--wrapper">
+          <div class="copyright--content">
+            <p>2023 &copy; Cohort 5. All rights reserved</p>
+          </div>
+        </div>
+        <!-- Copyright Ends -->
+
+        <!-- Footer Overlay Back to Top Starts -->
+        <div class="footer--overlay--wrapper">
+          <div class="overlay--back--to--top">
+            <i data-feather="chevron-up" class="move--up" id="backToTopBtn"></i>
+          </div>
+        </div>
+        <!-- Footer Overlay Back to Top Ends -->
+      </section>
+    </footer>
+    <!-- Our Main Footer Ends -->
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="./Assets/JS/index.js"></script>
+  </body>
+</html>
