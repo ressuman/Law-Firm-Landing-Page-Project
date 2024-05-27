@@ -1,4 +1,4 @@
-# AZ-C5-PROJECT-HTML-CSS-JS
+# Law Firm Landing Page
 
 ## TASK- Replicating a Law Firm Website Design
 
