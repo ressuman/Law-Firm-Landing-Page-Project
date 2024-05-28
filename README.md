@@ -30,3 +30,7 @@
 - Included at least one hover effect (e.g., on buttons or links) to enhance interactivity.
 - Optimized the project for loading speed by compressing images (if applicable).
 - Validated my HTML code to ensure it follows best practices.
+
+##### Law Firm Landing Page
+
+![Law Firm Landing Page gif](./Assets/video/law-firm-landing-page.gif)
